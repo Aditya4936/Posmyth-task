@@ -145,7 +145,7 @@ const ProductList = () => {
               className="border-1 border-gray-500 rounded-lg px-4 py-2 h-fit md:max-w-md w-full outline-none mb-3 md:mb-0"
             />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 transition-all delay-300 justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 transition-all delay-300 justify-center items-center">
             {loader ? (
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <Loader />
